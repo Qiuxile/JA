@@ -327,7 +327,3 @@ fn main() {
 | Serde | 序列化/反序列化 |
 | Tokio | 异步运行时 |
 | Rocket | Web 框架 |
-
----
-
-**下一章**: [Rust 所有权详解](./Rust所有权)

@@ -48,7 +48,8 @@ export default defineConfig({
             { text: 'C++ 基础语法', link: '/C++/C++基础语法' },
             { text: 'C++ 类与对象', link: '/C++/C++类与对象' },
             { text: 'C++ 继承与多态', link: '/C++/C++继承多态' },
-            { text: 'C++ STL', link: '/C++/C++STL' }
+            { text: 'C++ STL', link: '/C++/C++STL' },
+            { text: 'C++ 数据类型', link: '/C++/C++数据类型'}
           ]
         }
       ],
@@ -83,7 +84,23 @@ export default defineConfig({
             { text: '机器学习', link: '/AI/机器学习' },
             { text: '深度学习', link: '/AI/深度学习' },
             { text: '自然语言处理', link: '/AI/自然语言处理' },
-            { text: '计算机视觉', link: '/AI/计算机视觉' }
+            { text: '计算机视觉', link: '/AI/计算机视觉' },
+            { text: 'Vibe Coding工具推荐', link: '/AI/Vibe Coding工具推荐' }
+          ]
+        }
+      ],
+      '/JinanRec/': [
+        {
+          text: '🔥 HOT推荐',
+          items: [
+            { text: "Jinan推荐", link: '/JinanRec/Jinan推荐' },
+            { text: 'HotKey', link: '/JinanRec/HotKey' }
+          ]
+        },
+        {
+          text: '🤖 自动化工具',
+          items: [
+            { text: 'HotKey', link: '/JinanRec/HotKey' }
           ]
         }
       ],
@@ -96,7 +113,8 @@ export default defineConfig({
             { text: 'C++ 教程', link: '/C++/C++教程' },
             { text: 'Go 教程', link: '/Go/Go教程' },
             { text: 'Rust 教程', link: '/Rust/Rust教程' },
-            { text: 'AI/智能开发', link: '/AI/AI教程' }
+            { text: 'AI/智能开发', link: '/AI/AI教程' },
+            { text: 'Jinan推荐', link: '/JinanRec/Jinan推荐'}
           ]
         }
       ]

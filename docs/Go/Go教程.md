@@ -312,7 +312,3 @@ func main() {
 | encoding/json | JSON 编解码 |
 | os | 操作系统接口 |
 | sync | 同步原语 |
-
----
-
-**下一章**: [Go 并发编程详解](./Go并发)

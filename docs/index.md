@@ -64,6 +64,15 @@
   </div>
 </div>
 
+## 😁 Jinan推荐
+<div class="category-grid">
+  <div class="category-card">
+    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+    <h3><a href="/JinanRec/HotKey">HotKey</a></h3>
+    <p>热键自动化工具</p>
+  </div>
+</div>
+
 <style>
 .category-grid {
   display: grid;
@@ -121,4 +130,5 @@
   color: var(--vp-c-text-2);
   font-size: 0.875rem;
 }
+
 </style>

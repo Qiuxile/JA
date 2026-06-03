@@ -165,9 +165,3 @@ list("hello") # ['h', 'e', 'l', 'l', 'o']
 print("Hello")
 type(42)      # <class 'int'>
 ```
-
----
-
-**上一章**: [Python 数据类型](./Python数据类型)
-
-**下一章**: [Python 面向对象](./Python面向对象)

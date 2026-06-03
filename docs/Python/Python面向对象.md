@@ -233,7 +233,3 @@ cat = Cat("Whiskers")
 make_speak(dog)  # "Buddy says Woof!"
 make_speak(cat)  # "Whiskers says Meow!"
 ```
-
----
-
-**上一章**: [Python 函数](./Python函数)

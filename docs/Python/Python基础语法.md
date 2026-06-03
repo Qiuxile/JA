@@ -145,9 +145,3 @@ if age >= 18:
 else:
     print("未成年人")
 ```
-
----
-
-**上一章**: [Python 教程](./Python教程)
-
-**下一章**: [Python 数据类型](./Python数据类型)

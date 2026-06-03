@@ -186,9 +186,3 @@ func divide(a, b float64) (float64, error) {
     return a / b, nil
 }
 ```
-
----
-
-**上一章**: [Go 教程](./Go教程)
-
-**下一章**: [Go 并发编程](./Go并发)

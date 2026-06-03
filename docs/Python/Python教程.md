@@ -190,7 +190,3 @@ finally:
 | matplotlib | 数据可视化 |
 | flask | Web 框架 |
 | django | 全栈 Web 框架 |
-
----
-
-**下一章**: [Python 数据类型详解](./Python数据类型)

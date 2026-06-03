@@ -1,7 +1,7 @@
 {
   "name": "jinan",
   "version": "1.0.0",
-  "description": "",
+  "description": "优雅的知识库 & 开发指南",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",

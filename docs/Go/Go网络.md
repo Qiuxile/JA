@@ -234,7 +234,3 @@ func main() {
     fmt.Println(p2.Name)
 }
 ```
-
----
-
-**上一章**: [Go 并发编程](./Go并发)
