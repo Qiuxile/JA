@@ -5,9 +5,6 @@ export default defineConfig({
   description: "Jinan - 优雅的知识库 & 开发指南",
   lang: 'zh-CN',
   head: [
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
@@ -41,18 +38,61 @@ export default defineConfig({
         }
       ],
       '/C++/': [
-        {
-          text: 'C++ 教程',
-          items: [
-            { text: 'C++ 教程', link: '/C++/C++教程' },
-            { text: 'C++ 基础语法', link: '/C++/C++基础语法' },
-            { text: 'C++ 类与对象', link: '/C++/C++类与对象' },
-            { text: 'C++ 继承与多态', link: '/C++/C++继承多态' },
-            { text: 'C++ STL', link: '/C++/C++STL' },
-            { text: 'C++ 数据类型', link: '/C++/C++数据类型'}
-          ]
-        }
-      ],
+      {
+        text: 'C++基础',
+        items: [
+          { text: 'C++入门', link: '/C++/CppHome' },
+          { text: '预备知识', link: '/C++/ch01-preparation' },
+          { text: '开始学习C++', link: '/C++/ch02-getting-started' },
+          { text: '处理数据', link: '/C++/ch03-data' },
+          { text: '复合类型', link: '/C++/ch04-compound' },
+          { text: '循环和关系表达式', link: '/C++/ch05-loop' },
+          { text: '分支语句和逻辑运算符', link: '/C++/ch06-branch' },
+        ]
+      },
+      {
+        text: '函数与模块',
+        items: [
+          { text: '函数', link: '/C++/ch07-function' },
+          { text: '函数探幽', link: '/C++/ch08-function-advanced' },
+          { text: '内存模型和名称空间', link: '/C++/ch09-memory' },
+        ]
+      },
+      {
+        text: '面向对象编程',
+        items: [
+          { text: '对象和类', link: '/C++/ch10-class' },
+          { text: '使用类', link: '/C++/ch11-class-use' },
+          { text: '类和动态内存分配', link: '/C++/ch12-dynamic' },
+          { text: '类继承', link: '/C++/ch13-inheritance' },
+          { text: 'C++中的代码重用', link: '/C++/ch14-reuse' },
+        ]
+      },
+      {
+        text: '高级主题',
+        items: [
+          { text: '友元、异常和其他', link: '/C++/ch15-friends' },
+          { text: 'string类和STL', link: '/C++/ch16-stl' },
+          { text: '输入、输出和文件', link: '/C++/ch17-io' },
+          { text: '探讨C++新标准', link: '/C++/ch18-new' },
+        ]
+      },
+      {
+        text: '附录',
+        items: [
+          { text: '计数系统', link: '/C++/appendix-a' },
+          { text: 'C++保留字', link: '/C++/appendix-b' },
+          { text: 'ASCII字符集', link: '/C++/appendix-c' },
+          { text: '运算符优先级', link: '/C++/appendix-d' },
+          { text: '其他运算符', link: '/C++/appendix-e' },
+          { text: '模板类string', link: '/C++/appendix-f' },
+          { text: 'STL方法和函数', link: '/C++/appendix-g' },
+          { text: '精选读物和网上资源', link: '/C++/appendix-h' },
+          { text: '转换为ISO标准C++', link: '/C++/appendix-i' },
+          { text: '复习题答案', link: '/C++/appendix-j' },
+        ]
+      }
+    ],
       '/Go/': [
         {
           text: 'Go 语言教程',
@@ -110,7 +150,7 @@ export default defineConfig({
           items: [
             { text: 'Python 教程', link: '/Python/Python教程' },
             { text: 'C 教程', link: '/C/C教程' },
-            { text: 'C++ 教程', link: '/C++/C++教程' },
+            { text: 'C++ 教程', link: '/C++/CppHome' },
             { text: 'Go 教程', link: '/Go/Go教程' },
             { text: 'Rust 教程', link: '/Rust/Rust教程' },
             { text: 'AI/智能开发', link: '/AI/AI教程' },
